@@ -1,0 +1,62 @@
+body {
+    background: #f5d9d5;
+    font-family: "Nunito", sans-serif;
+}
+.footer {
+    background: #f498b8;
+}
+.footerP {
+    color: white;
+    font-weight: 100;
+}
+.content {
+    margin-bottom: 50px;
+}
+.milk h2 {
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 2rem;
+}
+.milk p {
+    font-weight: 100;
+    line-height: 2rem;
+    font-size: 1.125rem;
+    color: #f498b8;
+}
+.color {
+    color: #ea1c2c;
+}
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#mainNavbar .navbar-brand {
+    font-size: 1.7rem;
+    color: #ea1c2c;
+}
+#mainNavbar .nav-link {
+    color: white;
+}
+#mainNavbar .nav-link:hover {
+    color: #ea1c2c;
+}
+#museumGroup span {
+    color: #ea1c2c;
+}
+#museumGroup h1 {
+    font-weight: 100;
+    font-size: 3rem;
+}
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255,255,255,.0);
+}
+.navbar.scrolled {
+    background: rgb(222,192,222);
+    transition: background 500ms;
+}
+@media (max-width: 1200px) {
+    #museumGroup h1 {
+        font-weight: 100;
+        font-size: 2rem;
+    }
+}
